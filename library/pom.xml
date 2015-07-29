@@ -17,7 +17,7 @@
 	</properties>
 	
 	<build>
-		<directory>../target/library</directory>
+		<directory>target</directory>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<plugins>
 			<!-- Manifest file -->

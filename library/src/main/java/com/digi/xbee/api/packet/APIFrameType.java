@@ -42,6 +42,7 @@ public enum APIFrameType {
 	RECEIVE_PACKET (0x90, "Receive Packet"),
 	EXPLICIT_RX_INDICATOR (0x91, "Explicit RX Indicator"),
 	IO_DATA_SAMPLE_RX_INDICATOR (0x92, "IO Data Sample RX Indicator"),
+	NODE_IDENTIFICATION_INDICATOR (0x95, "Node Identification Indicator"),
 	REMOTE_AT_COMMAND_RESPONSE (0x97, "Remote Command Response"),
 	GENERIC (0xFF, "Generic");
 	
